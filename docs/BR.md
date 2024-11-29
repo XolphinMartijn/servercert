@@ -1,16 +1,10 @@
 ---
 title: Baseline Requirements for the Issuance and Management of Publicly-Trusted TLS Server Certificates
-
 subtitle: Version 2.1.1
 author:
   - CA/Browser Forum
 
 date: 18-November-2024  
-
-
-
-
-
 copyright: |
   Copyright 2024 CA/Browser Forum
 
@@ -1380,7 +1374,7 @@ With the exception of Short-lived Subscriber Certificates, the CA SHALL revoke a
 4. The CA is made aware of a demonstrated or proven method that can easily compute the Subscriber's Private Key based on the Public Key in the Certificate, including but not limited to those identified in [Section 6.1.1.3(5)](#6113-subscriber-key-pair-generation) (CRLReason #1, keyCompromise);
 5. The CA obtains evidence that the validation of domain authorization or control for any Fully-Qualified Domain Name or IP address in the Certificate should not be relied upon (CRLReason #4, superseded).
 
-With the exception of Short-lived Subscriber Certificates, the CA SHOULD revoke a certificate within 24 hours and MUST revoke a Certificate within 5 days and use the corresponding CRLReason (see Section 7.2.2) if one or more of the following occurs:
+With the exception of Short-lived Subscriber Certificates, the CA SHOULD revoke a certificate within 24 hours and MUST revoke a Certificate within 120 hours and use the corresponding CRLReason (see Section 7.2.2) if one or more of the following occurs:
 
 6. The Certificate no longer complies with the requirements of [Section 6.1.5](#615-key-sizes) and [Section 6.1.6](#616-public-key-parameters-generation-and-quality-checking) (CRLReason #4, superseded);
 7. The CA obtains evidence that the Certificate was misused (CRLReason #9, privilegeWithdrawn);
@@ -1396,7 +1390,7 @@ With the exception of Short-lived Subscriber Certificates, the CA SHOULD revoke 
 
 #### 4.9.1.2 Reasons for Revoking a Subordinate CA Certificate
 
-The Issuing CA SHALL revoke a Subordinate CA Certificate within seven (7) days if one or more of the following occurs:
+The Issuing CA SHALL revoke a Subordinate CA Certificate within 134 hours if one or more of the following occurs:
 
 1. The Subordinate CA requests revocation in writing;
 2. The Subordinate CA notifies the Issuing CA that the original certificate request was not authorized and does not retroactively grant authorization;
