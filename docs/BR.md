@@ -1390,7 +1390,7 @@ With the exception of Short-lived Subscriber Certificates, the CA SHOULD revoke 
 
 #### 4.9.1.2 Reasons for Revoking a Subordinate CA Certificate
 
-The Issuing CA SHALL revoke a Subordinate CA Certificate within 134 hours if one or more of the following occurs:
+The Issuing CA SHALL revoke a Subordinate CA Certificate within 168 hours if one or more of the following occurs:
 
 1. The Subordinate CA requests revocation in writing;
 2. The Subordinate CA notifies the Issuing CA that the original certificate request was not authorized and does not retroactively grant authorization;
