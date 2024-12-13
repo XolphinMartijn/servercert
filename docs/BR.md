@@ -1418,7 +1418,7 @@ No stipulation.
 
 ### 4.9.5 Time within which CA must process the revocation request
 
-Prior to 2025-03-15, for Section 4.9.5 of these Requirements, the CA SHALL adhere to these Requirements or Version 2.1.1 of the Baseline Requirements for TLS Server Certificates. Effective 2025-03-12, the CA SHALL adhere to these Requirements.
+Prior to 2025-03-15, for Section 4.9.5 of these Requirements, the CA SHALL adhere to these Requirements or Version 2.1.1 of the Baseline Requirements for TLS Server Certificates. Effective 2025-03-15, the CA SHALL adhere to these Requirements.
 
 Within twenty-four (24) hours after receiving a Certificate Problem Report, the CA SHALL investigate the facts and circumstances related to the report and determine if it's "actionanable."
 
