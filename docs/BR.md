@@ -1638,7 +1638,7 @@ The Subscriber, RA, or Issuing CA can initiate revocation. Additionally, Subscri
 
 Prior to 2027-02-15, for Section 4.9.3 of these Requirements, the CA SHALL adhere to these Requirements or Version 2.2.5 of the Baseline Requirements for TLS Server Certificates. Effective 2027-02-15, the CA SHALL adhere to these Requirements.
 
-The CA's Certificate Policy or Certification Practice Statement MUST describe a process for Subscribers to request revocation of their own Certificates.
+The CA's Certification Practice Statement or combined CP/CPS MUST describe a process for Subscribers to request revocation of their own Certificates.
 
 The CA SHALL maintain highly available systems to accept revocation requests and Certificate Problem Reports, and the personnel and procedures to meet the response deadlines specified in these Requirements.
 
